@@ -50,6 +50,6 @@ form.addEventListener('submit', (event)=>{
 event.preventDefault()
 const apiSearchUrl = `${SEARCH_KEYWORD}${search.value}`
 if(search.value){
-    getMovies(apiSearchUrl)
+     getMovies(apiSearchUrl)
 }
 })
